@@ -1,0 +1,35 @@
+{
+  "extends": "hexo",
+  "root": true,
+  "globals": {
+    "hexo": true
+  },
+  "rules": {
+    "one-var": 0,
+    "operator-linebreak": [
+      2,
+      "after"
+    ],
+    "comma-spacing": [
+      2,
+      {
+        "after": true
+      }
+    ]
+  },
+  "overrides": [{
+    "files": ["test.js"],
+    "extends": "hexo/test",
+    "env": {
+      "es6": true
+    },
+    "globals": {
+      "should": true
+    },
+    "rules": {
+      "node/no-unpublished-require": ["error", {
+        "allowModules": ["cheerio", "hexo"]
+      }]
+    }
+  }]
+}
