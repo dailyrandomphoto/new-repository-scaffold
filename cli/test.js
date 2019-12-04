@@ -1,6 +1,8 @@
 'use strict';
 
-const {expect} = require('chai');
+const chai = require('chai');
+chai.use(require('chai-as-promised'));
+const {expect} = chai;
 const main = require('new-repository-scaffold');
 
 describe('new-repository-scaffold', () => {
