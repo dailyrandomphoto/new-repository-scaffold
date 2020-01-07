@@ -14,9 +14,9 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "mocha": "^6.2.1",
+    "mocha": "^7.0.0",
     "new-repository-scaffold": "file:.",
-    "nyc": "^14.1.1",
+    "nyc": "^15.0.0",
     "xo": "^0.25.3"
   },
   "keywords": [
