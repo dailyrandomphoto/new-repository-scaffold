@@ -4,8 +4,8 @@
   "description": "A scaffold for create a new repository.",
   "main": "index.js",
   "scripts": {
-    "lint": "xo",
-    "lint:fix": "xo --fix",
+    "lint": "prettier --write . && xo",
+    "lint:fix": "prettier --write . && xo --fix",
     "test": "mocha test.js",
     "test:cov": "nyc npm run test",
     "test:loop": "while npm test --silent; do :; done"
@@ -14,10 +14,11 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "mocha": "^7.0.0",
+    "mocha": "^8.0.0",
     "new-repository-scaffold": "file:.",
     "nyc": "^15.0.0",
-    "xo": "^0.25.3"
+    "prettier": "latest",
+    "xo": "latest"
   },
   "keywords": [
     "foo",
@@ -45,7 +46,11 @@
     "space": 2,
     "rules": {
       "promise/prefer-await-to-then": 0,
-      "capitalized-comments": 0
+      "capitalized-comments": 0,
+      "object-curly-spacing": [
+        2,
+        "always"
+      ]
     },
     "overrides": [
       {

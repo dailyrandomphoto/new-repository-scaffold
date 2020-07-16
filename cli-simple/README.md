@@ -5,7 +5,7 @@
 [![Build Status][travis-image]][travis-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
 [![dependencies Status][dependencies-image]][dependencies-url]
-[![devDependencies Status][devDependencies-image]][devDependencies-url]
+[![devDependencies Status][devdependencies-image]][devdependencies-url]
 
 A scaffold for create a new repository.
 
@@ -16,11 +16,13 @@ npm install new-repository-scaffold
 ```
 
 ## Usages
+
 ```js
 $ npx cli-name FILENAME
 ```
 
 ## License
+
 Copyright (c) 2019 [dailyrandomphoto][my-url]. Licensed under the [MIT license][license-url].
 
 [my-url]: https://github.com/dailyrandomphoto
@@ -29,12 +31,11 @@ Copyright (c) 2019 [dailyrandomphoto][my-url]. Licensed under the [MIT license][
 [coveralls-url]: https://coveralls.io/github/dailyrandomphoto/new-repository-scaffold?branch=master
 [license-url]: LICENSE
 [dependencies-url]: https://david-dm.org/dailyrandomphoto/new-repository-scaffold
-[devDependencies-url]: https://david-dm.org/dailyrandomphoto/new-repository-scaffold?type=dev
-
+[devdependencies-url]: https://david-dm.org/dailyrandomphoto/new-repository-scaffold?type=dev
 [npm-downloads-image]: https://img.shields.io/npm/dm/new-repository-scaffold
 [npm-version-image]: https://img.shields.io/npm/v/new-repository-scaffold
 [license-image]: https://img.shields.io/npm/l/new-repository-scaffold
 [travis-image]: https://img.shields.io/travis/dailyrandomphoto/new-repository-scaffold
 [coveralls-image]: https://img.shields.io/coveralls/github/dailyrandomphoto/new-repository-scaffold
 [dependencies-image]: https://img.shields.io/david/dailyrandomphoto/new-repository-scaffold
-[devDependencies-image]: https://img.shields.io/david/dev/dailyrandomphoto/new-repository-scaffold
+[devdependencies-image]: https://img.shields.io/david/dev/dailyrandomphoto/new-repository-scaffold

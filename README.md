@@ -11,12 +11,14 @@ cp -a new-repository-scaffold/module new-repository
 ```
 
 ## Types
+
 - module
 - module-simple
 - application
 - cli
 
 ## License
+
 Copyright (c) 2019 [dailyrandomphoto][my-url]. Licensed under the [MIT license][license-url].
 
 [my-url]: https://github.com/dailyrandomphoto
