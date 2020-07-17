@@ -6,6 +6,7 @@
 [![Coverage Status][coveralls-image]][coveralls-url]
 [![dependencies Status][dependencies-image]][dependencies-url]
 [![devDependencies Status][devdependencies-image]][devdependencies-url]
+[![code style: prettier][code-style-prettier-image]][code-style-prettier-url]
 
 A scaffold for create a new repository.
 
@@ -32,6 +33,7 @@ Copyright (c) 2019 [dailyrandomphoto][my-url]. Licensed under the [MIT license][
 [license-url]: LICENSE
 [dependencies-url]: https://david-dm.org/dailyrandomphoto/new-repository-scaffold
 [devdependencies-url]: https://david-dm.org/dailyrandomphoto/new-repository-scaffold?type=dev
+[code-style-prettier-url]: https://github.com/prettier/prettier
 [npm-downloads-image]: https://img.shields.io/npm/dm/new-repository-scaffold
 [npm-version-image]: https://img.shields.io/npm/v/new-repository-scaffold
 [license-image]: https://img.shields.io/npm/l/new-repository-scaffold
@@ -39,3 +41,4 @@ Copyright (c) 2019 [dailyrandomphoto][my-url]. Licensed under the [MIT license][
 [coveralls-image]: https://img.shields.io/coveralls/github/dailyrandomphoto/new-repository-scaffold
 [dependencies-image]: https://img.shields.io/david/dailyrandomphoto/new-repository-scaffold
 [devdependencies-image]: https://img.shields.io/david/dev/dailyrandomphoto/new-repository-scaffold
+[code-style-prettier-image]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
