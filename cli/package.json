@@ -49,13 +49,10 @@
   "homepage": "https://github.com/dailyrandomphoto/new-repository-scaffold#readme",
   "xo": {
     "space": 2,
+    "prettier": true,
     "rules": {
       "promise/prefer-await-to-then": 0,
-      "capitalized-comments": 0,
-      "object-curly-spacing": [
-        2,
-        "always"
-      ]
+      "capitalized-comments": 0
     },
     "overrides": [
       {
