@@ -19,7 +19,7 @@ cp -a new-repository-scaffold/module new-repository
 
 ## License
 
-Copyright (c) 2019 [dailyrandomphoto][my-url]. Licensed under the [MIT license][license-url].
+Copyright (c) 2020 [dailyrandomphoto][my-url]. Licensed under the [MIT license][license-url].
 
 [my-url]: https://github.com/dailyrandomphoto
 [license-url]: LICENSE
