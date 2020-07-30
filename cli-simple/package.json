@@ -12,7 +12,8 @@
     "lint:fix": "prettier --write . && xo --fix",
     "test": "mocha test.js",
     "test:cov": "nyc npm run test",
-    "test:loop": "while npm test --silent; do :; done"
+    "test:loop": "while npm test --silent; do :; done",
+    "preinstall": "unlink-self 2>&1 | echo unlink-self"
   },
   "dependencies": {},
   "devDependencies": {
@@ -22,6 +23,7 @@
     "new-repository-scaffold": "file:.",
     "nyc": "^15.0.0",
     "prettier": "latest",
+    "unlink-self": "latest",
     "xo": "latest"
   },
   "keywords": [
