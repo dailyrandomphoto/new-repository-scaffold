@@ -32,7 +32,7 @@
     "README.md"
   ],
   "engines": {
-    "node": ">=8.6.0"
+    "node": ">=10.13.0"
   },
   "author": "dailyrandomphoto <dailyrandomphoto@gmail.com> (https://www.dailyrandomphoto.com/)",
   "license": "MIT",
